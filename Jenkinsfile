@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                  sh "cp /var/lib/jenkins/workspace/web/dist/hello.war /home/vivek/tomcat_blue/webapps"
+                  sh "cp /var/lib/jenkins/workspace/web/dist/hello.war /home/vivek/tomcat_green/webapps"
             }
    }
 }
